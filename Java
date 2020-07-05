@@ -1,0 +1,46 @@
+
+1. Difference between Wrapper classes and Primitive Data Types.
+2. How does main() method execution works?
+3. Can we change the access modifier for an overridden method in subclass? For e.g. can a public method of super class be made protected in sub class?
+4. Everthing you know about static keyword.
+5. class Abc{
+  {
+  block statement;
+  }
+  
+  //constructor
+  Abc(){
+  }
+  
+  //static block
+  
+  static{
+  }
+  
+  p.s.v.m(){
+  Abc abc = new Abc;
+  }
+}
+
+When an instance of above class is created what would be the execution flow of block, static block, constructor?
+What wold be the flow when second instance is created?
+
+6. Can a class be static?
+7. Exception Handling - 
+  class Parent{
+    show() throws IOException{}
+  }
+  class SubClass extends Parent{
+    show() throws Exception{}
+  }
+  
+  Will this above program throw any error, as both class throw different exception.
+  
+Collection Framework - 
+8. What is ArrayList?
+9. Difference between ArrayList and Vector
+10. What you know about List Interface
+11. ArrayList vs LinkedList (which one would you prefer)
+12. Explain indexing in ArrayList
+13. HashMap vs TreeMap
+14. We have a clas Employee, whose object to be used as Key in HashMap and TreeMap. What should we keep in mind in this case?
